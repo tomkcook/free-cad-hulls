@@ -12,8 +12,8 @@ class HullsWorkbench ( Workbench ):
     def Initialize(self):
         # load the module
         import HullsGui
-        self.appendToolbar('Hulls',['Hulls_GenerateHull', 'Hulls_ParametricHull'])
-        self.appendMenu('Hulls',['Hulls_GenerateHull', 'Hulls_ParametricHull'])
+        self.appendToolbar('Hulls',['Hulls_ParametricHull'])
+        self.appendMenu('Hulls',['Hulls_ParametricHull'])
     
     def GetClassName(self):
         return "Gui::PythonWorkbench"
