@@ -7,7 +7,7 @@
     <x>0</x>
     <y>0</y>
     <width>400</width>
-    <height>444</height>
+    <height>555</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -107,7 +107,7 @@
       <double>0.100000000000000</double>
      </property>
      <property name="value">
-      <double>1.500000000000000</double>
+      <double>1.200000000000000</double>
      </property>
     </widget>
    </item>
@@ -130,7 +130,7 @@
       <double>0.100000000000000</double>
      </property>
      <property name="value">
-      <double>2.000000000000000</double>
+      <double>1.400000000000000</double>
      </property>
     </widget>
    </item>
@@ -157,10 +157,10 @@
       <double>3.000000000000000</double>
      </property>
      <property name="singleStep">
-      <double>0.100000000000000</double>
+      <double>0.050000000000000</double>
      </property>
      <property name="value">
-      <double>0.900000000000000</double>
+      <double>0.550000000000000</double>
      </property>
     </widget>
    </item>
@@ -171,14 +171,14 @@
      </property>
     </widget>
    </item>
-   <item row="15" column="0">
+   <item row="16" column="0">
     <widget class="QLabel" name="label_8">
      <property name="text">
       <string>Teardrop Factor:</string>
      </property>
     </widget>
    </item>
-   <item row="15" column="1">
+   <item row="16" column="1">
     <widget class="QDoubleSpinBox" name="teardrop">
      <property name="maximum">
       <double>2.000000000000000</double>
@@ -186,25 +186,15 @@
      <property name="singleStep">
       <double>0.050000000000000</double>
      </property>
+     <property name="value">
+      <double>0.300000000000000</double>
+     </property>
     </widget>
    </item>
    <item row="14" column="0">
     <widget class="QLabel" name="label_9">
      <property name="text">
       <string>Draft Boxiness:</string>
-     </property>
-    </widget>
-   </item>
-   <item row="14" column="1">
-    <widget class="QDoubleSpinBox" name="v_box">
-     <property name="maximum">
-      <double>3.000000000000000</double>
-     </property>
-     <property name="singleStep">
-      <double>0.100000000000000</double>
-     </property>
-     <property name="value">
-      <double>0.900000000000000</double>
      </property>
     </widget>
    </item>
@@ -236,6 +226,56 @@
      </property>
      <property name="value">
       <number>2</number>
+     </property>
+    </widget>
+   </item>
+   <item row="15" column="0">
+    <widget class="QLabel" name="label_12">
+     <property name="text">
+      <string>Bilge Boxiness: </string>
+     </property>
+    </widget>
+   </item>
+   <item row="14" column="1">
+    <widget class="QDoubleSpinBox" name="v_box">
+     <property name="maximum">
+      <double>3.000000000000000</double>
+     </property>
+     <property name="singleStep">
+      <double>0.050000000000000</double>
+     </property>
+     <property name="value">
+      <double>0.550000000000000</double>
+     </property>
+    </widget>
+   </item>
+   <item row="15" column="1">
+    <widget class="QDoubleSpinBox" name="l_box">
+     <property name="maximum">
+      <double>3.000000000000000</double>
+     </property>
+     <property name="singleStep">
+      <double>0.050000000000000</double>
+     </property>
+     <property name="value">
+      <double>0.500000000000000</double>
+     </property>
+    </widget>
+   </item>
+   <item row="17" column="0">
+    <widget class="QLabel" name="label_13">
+     <property name="text">
+      <string>Sheer Rise:</string>
+     </property>
+    </widget>
+   </item>
+   <item row="17" column="1">
+    <widget class="QDoubleSpinBox" name="sheer_rise">
+     <property name="singleStep">
+      <double>0.050000000000000</double>
+     </property>
+     <property name="value">
+      <double>0.500000000000000</double>
      </property>
     </widget>
    </item>
